@@ -8,7 +8,7 @@ import Useref from "./components/Useref";
 import UseMemo from "./components/UseMemo";
 import UseCallBack from "./components/UseCalBack";
 import UseContext from "./components/UseContext";
-import UseReducering from "./components/UseReducering";
+import UseRed from "./components/UseReducering";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +21,7 @@ function App() {
       <UseMemo />
       <UseContext />
       <UseCallBack />
-      <UseReducering />
+      <UseRed />
     </>
   );
 }
